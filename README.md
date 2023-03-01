@@ -43,6 +43,7 @@
 - 2022.10.18 ~ 2022.10.24 테스트
 - 2022.10.25 ~ 2022.11.01 발표자료 작성
 - 2022.11.02 프로젝트 발표
+<br>
 
 ![image](https://user-images.githubusercontent.com/110010716/222173484-94bc0ea6-d714-4da9-84dd-6ffcb965cbe0.png)
 <br>
@@ -91,9 +92,9 @@
 
 
 
-## 🔑 ERD | <a href="https://github.com/Jungsuah/SEMI_PROJECT_/commit/87cb735b2fd1da0583f5f9cf440c47543204a569">(ERD)</a>
+## 🔑 ERD | <a href="https://github.com/Jungsuah/FINAL_PROJECT_/commit/cab7900d3ec3eb9f63628e5c87a3c2c8c1fe9203">(ERD)</a>
 
-![image](https://user-images.githubusercontent.com/110010716/221628382-92f235c4-8dee-4d9e-932e-9d8dadb979dc.png)
+![image](https://user-images.githubusercontent.com/110010716/222175883-01c2753a-a28b-43a4-9777-6010b5c83488.png)
 
 <br>
 
