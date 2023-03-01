@@ -94,36 +94,35 @@
 
 ## 🔑 ERD | <a href="https://github.com/Jungsuah/FINAL_PROJECT_/commit/cab7900d3ec3eb9f63628e5c87a3c2c8c1fe9203">(ERD)</a>
 
-![image](https://user-images.githubusercontent.com/110010716/222175883-01c2753a-a28b-43a4-9777-6010b5c83488.png)
+![FINAL_PROJECT_ERD_2](https://user-images.githubusercontent.com/110010716/222177620-fa0d8639-bb1e-4620-9322-914fc3e1aedc.png)
 
 <br>
 
 
-## :tv:기능 구현
+## 🎨 기능 구현
+<br>
+들어가기에 앞서 모든 </b>mapper</b> 확인은 👉 <a href="https://github.com/Jungsuah/FINAL_PROJECT_/tree/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers">Here</a>
+<br>
+<br>
+
 
 ### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">메인페이지 기능 소개</a>
 
 ![main1](https://user-images.githubusercontent.com/110010716/222136100-1e0ba414-90a9-41fd-a1b1-3fb6ff1df59b.gif)
 <br>
-#### 👉 상단 검색바에서 키워드로 검색 가능 
-#### 👉 행사일정 정보 조회, 커뮤니티 글 최신순 조회, 사뿐코스, 사뿐몰 인기 상품 조회 가능
+#### 👉 관광정보 검색 버튼으로 키워드 검색 가능 
+#### 👉 나만의 여행코스를 통해 회원들이 직접 만든 코스 소개
+#### 👉 핫플레이스 목록은 회원의 좋아요를 많이 받은 관광지 및 음식점 기반 추천 
 
 ![main2](https://user-images.githubusercontent.com/110010716/222136261-1566824f-edcc-4850-849b-e135b8ef5db3.gif)
 <br>
-#### 👉 더보기 클릭 시 해당 기능 페이지로 이동 <br><br>
+#### 👉 각 항목별 더보기 버튼 클릭 시 해당 항목별 메인페이지로 이동 <br><br>
 <br>
 <br>
 
 
-![main3](https://user-images.githubusercontent.com/110010716/222141509-708972db-ba43-4d59-b9b8-27c9b1f3ed59.gif)
-<br>
-#### 👉 인기 문화 명소는 회원들의 좋아요 갯수를 활용하여 기능 구현 <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/dao/HeritageDao.java">(URL)</a>
-#### 👉 로그인한 사용자가 좋아요를 누르면, 좋아요 개수가 자동으로 오르고,
-#### 👉 상위 조회수 10곳의 문화재를 메인 페이지에서 확인 가능 <br><br>
-<br>
-<br>
 
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/dao/HeritageDao.java">문화재 검색 기능 소개</a>
+### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java"> 관광지 검색 기능 소개</a>
 <br>
 
 ![search1](https://user-images.githubusercontent.com/110010716/222142847-14854b55-bdb2-4895-b447-879d917a0ba4.gif)
@@ -133,17 +132,17 @@
 <br>
 
 
-#### 👉 상단 메뉴를 통한 문화재 검색 페이지 이동 시 전체 문화재 조회 
-#### 👉 한 페이지 당 9개의 문화재 조회 페이징 처리 
-#### 👉 검색된 항목 (대표이미지, 위치, 문화재명, 요약설명, 찜 개수) 확인 가능
-#### 👉 조회된 문화재 클릭 시 상세 페이지로 이동
-#### 👉 키워드와 체크박스를 활용한 5중 조건 검색 (키워드, 지역, 지정연도, 시대, 유형 분류)  <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/dao/HeritageDao.java"> | 검색 SQL문 </a>
-- 키워드 : 문화재 이름에 포함된 문자 있으면 조회 (선택)
-- 지역 : 16가지 항목 중 하나라도 포함된 문화재면 조회 (미선택 or 중복 선택 가능)
-- 지정연도 : 스크롤로 지정한 연도 범위에 포함된 문화재면 조회 (미선택 or 단일 선택 가능)
-- 시대 : 17가지 항목 중 해당되는 문화재로 조회 (미선택 or 중복 선택 가능)
-- 유형 분류 : 7가지 항목 중 해당되는 문화재로 조회 (미선택 or 중복 선택 가능)
-- 전체 체크시 이전 선택 항목 사라지고 전체 선택으로 변경
+#### 👉 상단 메뉴를 통한 관광 검색 페이지 이동 시 전체 관광지 및 부대시설 조회 가능
+#### 👉 한 페이지 당 9개의 관광 정보 페이징 처리 
+#### 👉 검색된 항목 (이미지, 이름, 위치, 요약정보, 회원들이 남긴 별점) 확인 가능
+#### 👉 조회된 항목 클릭 시 상세 페이지로 이동
+#### 👉 키워드와 체크박스를 활용한 6중 조건 검색 (키워드, 지역, 지정연도, 시대, 유형 분류)  <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/tour_total-mapper.xml"> | 검색 SQL문 </a>
+- 키워드 : 검색 항목에 포함된 문자 있으면 조회 (선택)
+- 날짜 : 달력으로 원하는 날짜 범위 지정 (미선택 or 단일 선택 가능)
+- 지역 : 여러 지역 중복 선택 가능 (미선택 or 중복 선택 가능)
+- 여행 타입 : 8가지 항목 중 해당되는 문화재로 조회 (미선택 or 단일 선택 가능)
+- 대분류 : 7가지 항목 중 해당되는 문화재로 조회 (미선택 or 단일 선택 가능)
+- 소분류 : 선택한 대분류에 따라 소분류 항목이 바뀜
 <br>
 <br>
 
