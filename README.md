@@ -131,7 +131,7 @@
 #### 👉 상단 메뉴를 통한 관광 검색 페이지 이동 시 전체 관광지 및 부대시설 조회 가능
 #### 👉 한 페이지 당 9개의 관광 정보 페이징 처리 
 #### 👉 조회된 항목 클릭 시 상세 페이지로 이동
-
+<br>
 
 ![search2](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
 <br>
@@ -158,11 +158,13 @@
 - 지역 : 여러 지역 중복 선택 가능 (미선택 or 중복 선택 가능)
 #### 👉 행사 클릭시 행사 상세페이지로 이동
 
+
 ![festival2](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
 <br>
 #### 👉 로그인 한 회원일 경우 하트 버튼으로 찜하기 가능
 
 
+<br>
 ### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">4. 달력 행사 검색 기능 소개</a>
 <br>
 
@@ -173,6 +175,7 @@
 #### 👉 행사 클릭시 행사 상세페이지로 이동
 
 
+<br>
 ### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">5. 달력 행사 검색 기능 소개</a>
 <br>
 
