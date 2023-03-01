@@ -77,15 +77,14 @@
 
 ## ⛏ 개발환경 | Development Environment 
 - 운영체제 : Window OS<br>
-- 개발 툴 : Eclipse, Apache Tomcat 8.5, Oracle SQL Developer, Visual Studio code<br>
+- 개발 툴 : Eclipse, STS, Spring Framework, JDBC, Apache Tomcat 8.5, Oracle SQL Developer, Visual Studio code, Bootstrap<br>
 - 개발 언어 : Java , HTML5, CSS3, JavaScript, jQuery, SQL, JSP, Servlet, Ajax, Json, Gson<br>
 - 소스 제어 관리 : GitHub<br>
 - 협업 툴 : Slack, Discode, Zira<br>
 - 프로토타이핑 툴 : ERD Cloud<br>
-- Open API : Kakao API, 문화재청 API<br>
+- Open API : Kakao API, Kakao 지도 API, 한국관광공사 API<br>
   <br>
-  <br>
-![image](https://user-images.githubusercontent.com/110010716/221635450-09d8d5d0-2c44-4e70-a215-85c744c7cdfc.png)
+![image](https://user-images.githubusercontent.com/110010716/222174828-33fe25a4-fa09-4d3f-9849-f680ddcbbd7a.png)
   <br>
   <br>
 
