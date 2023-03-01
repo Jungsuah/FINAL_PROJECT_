@@ -106,7 +106,7 @@
 <br>
 
 
-### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">메인페이지 기능 소개</a>
+### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">1. 메인페이지 기능 소개</a>
 
 ![main1](https://user-images.githubusercontent.com/110010716/222136100-1e0ba414-90a9-41fd-a1b1-3fb6ff1df59b.gif)
 <br>
@@ -122,21 +122,20 @@
 
 
 
-### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java"> 관광지 검색 기능 소개</a>
+### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">2. 관광지 검색 기능 소개</a>
 <br>
 
 ![search1](https://user-images.githubusercontent.com/110010716/222142847-14854b55-bdb2-4895-b447-879d917a0ba4.gif)
 <br>
+#### 👉 상단 메뉴를 통한 관광 검색 페이지 이동 시 전체 관광지 및 부대시설 조회 가능
+#### 👉 한 페이지 당 9개의 관광 정보 페이징 처리 
+#### 👉 조회된 항목 클릭 시 상세 페이지로 이동
+
 
 ![search2](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
 <br>
-
-
-#### 👉 상단 메뉴를 통한 관광 검색 페이지 이동 시 전체 관광지 및 부대시설 조회 가능
-#### 👉 한 페이지 당 9개의 관광 정보 페이징 처리 
 #### 👉 검색된 항목 (이미지, 이름, 위치, 요약정보, 회원들이 남긴 별점) 확인 가능
-#### 👉 조회된 항목 클릭 시 상세 페이지로 이동
-#### 👉 키워드와 체크박스를 활용한 6중 조건 검색 (키워드, 지역, 지정연도, 시대, 유형 분류)  <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/tour_total-mapper.xml"> | 검색 SQL문 </a>
+#### 👉 검색 조건 (6중 검색 가능)  <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/tour_total-mapper.xml"> | 검색 SQL문 </a>
 - 키워드 : 검색 항목에 포함된 문자 있으면 조회 (선택)
 - 날짜 : 달력으로 원하는 날짜 범위 지정 (미선택 or 단일 선택 가능)
 - 지역 : 여러 지역 중복 선택 가능 (미선택 or 중복 선택 가능)
@@ -146,49 +145,115 @@
 <br>
 <br>
 
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/controller/HeritageDetailServlet.java">문화재 상세 기능 소개</a>
+
+### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">3. 지역별 행사 검색 기능 소개</a>
+<br>
+
+![festival1](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
+<br>
+#### 👉 검색 조건 (3중 검색 가능)  <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/tour_total-mapper.xml"> | 검색 SQL문 </a>
+- 키워드 : 검색 항목에 포함된 문자 있으면 조회 (미선택 or 단일 선택 가능)
+- 월별 : 원하는 월별 지정 (미선택 or 단일 선택 가능)
+- 지역 : 여러 지역 중복 선택 가능 (미선택 or 중복 선택 가능)
+#### 👉 행사 클릭시 행사 상세페이지로 이동
+
+![festival2](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
+<br>
+#### 👉 로그인 한 회원일 경우 하트 버튼으로 찜하기 가능
+
+
+### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">4. 달력 행사 검색 기능 소개</a>
+<br>
+
+![calendar1](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
+<br>
+#### 👉 달력 클릭시 진행되는 행사 조회 가능  
+- 자바스크립트를 이용하여 행사 데이터를 달력에 보여줄수 있도록 구현
+#### 👉 행사 클릭시 행사 상세페이지로 이동
+
+
+### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">5. 달력 행사 검색 기능 소개</a>
+<br>
+
+![calendar1](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
+<br>
+#### 👉 달력 클릭시 진행되는 행사 조회 가능  
+- 자바스크립트를 이용하여 행사 데이터를 달력에 보여줄수 있도록 구현
+#### 👉 행사 클릭시 행사 상세페이지로 이동
+
+
+
+
+
+### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/controller/HeritageDetailServlet.java">6. 관광 상세 페이지</a>
 <br>
 
 ![detail1](https://user-images.githubusercontent.com/110010716/222152309-80dc4c3a-cc25-44df-93cc-9e5354d39517.gif)
 <br>
+#### 👉 상세 정보, 이미지, 지도 확인
 
-#### 👉 분류, 시대, 소재지 등 문화재의 자세한 데이터를 확인
-#### 👉 상단 갤러리에서 원본 크기의 문화재 이미지를 확인
+
+![detail2](https://user-images.githubusercontent.com/110010716/222152309-80dc4c3a-cc25-44df-93cc-9e5354d39517.gif)
+<br>
+#### 👉 하단에서 추천 관광 코스 확인
+#### 👉 더보기를 통해 추천코스 상세페이지로 이동
 <br>
 <br>
 <br>
   
-![detail2](https://user-images.githubusercontent.com/110010716/222152296-49c6b9fc-bde7-45aa-9259-2c56921c6c7b.gif)
+![detail3](https://user-images.githubusercontent.com/110010716/222152296-49c6b9fc-bde7-45aa-9259-2c56921c6c7b.gif)
 <br>
   
-#### 👉 우측에서는 지도에 문화재 위치를 좌표로 구현 (경도와 위도 데이터 사용)
-#### 👉 지도는 카카오 API를 사용하여 구현, 해당 문화재의 위치를 확인 <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/webapp/views/heritage/heritageDetail.jsp">(URL)</a>
-#### 👉 하트 클릭시 해당 문화재 찜하고, 마이 페이지로 이동하여 찜목록 확인 <br><br>
+#### 👉 코스담기 클릭시 코스 생성 가능 
+- 모달를 이용하여 새로운 코스 이름 설정 
+- 생긴 코스에 항목 담아주기
+#### 👉 생성된 코스는 나만의 여행코스와 마이페이지에서 조회 가능
 <br>
 <br>
 
-![detail3](https://user-images.githubusercontent.com/110010716/222152150-10fcb8b0-ef1f-46e8-a9e2-918af5880b41.gif)
-
+![detail4](https://user-images.githubusercontent.com/110010716/222152150-10fcb8b0-ef1f-46e8-a9e2-918af5880b41.gif)
 <br>
 
-#### 👉 하단에서 리뷰 작성 기능<a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/controller/HertiageReviewWriteServlet.java"> (URL)</a>
-#### 👉 최근 4개의 리뷰 확인, 더보기 버튼으로 모든 리뷰를 확인 가능<br><br>
+#### 👉 하단에서 리뷰 및 별점 부여 기능<a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/controller/HertiageReviewWriteServlet.java"> (URL)</a>
+#### 👉 회원들이 남긴 별점의 평점은 검색시 같이 확인 가능<br><br>
 <br>
 <br>
 <br>
 
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">월별 행사일정 페이지 기능 소개</a>
+### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">7. 여행 갤러리 기능</a>
 
-![detail1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+![gallery1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
 <br>
-#### 👉 월별 버튼을 눌러 문화 일정 확인 <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/dao/FestivalDao.java">(URL)</a>
-<br>
-
-![detail1](https://user-images.githubusercontent.com/110010716/222153824-d2a0ac99-e68d-4a79-9d64-344842ec9d7b.gif)
+#### 👉 회원들이 사진 파일 업로드 가능 <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/dao/FestivalDao.java">(URL)</a>
 <br>
 
-#### 👉 한 페이지 당 10개의 문화재 조회 페이징 처리 
-#### 👉 url이 표기된 경우 클릭시 관련 행사 사이트로 이동
+![gallery2](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+<br>
+#### 👉 하트 클릭시 빨간색(찜하기 유무)이 사라지지 않도록 ajax로 구현
+
+### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">8. 여행 지도 기능</a>
+
+![map1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+<br>
+#### 👉 투게더 자체 추천 코스는 여행코스, 회원들이 직접 만든 여행코스는 나의 여행에서
+#### 👉 좌표가 점선으로 연결된 형태로 조회 
+#### 👉 좌표 클릭시 상세페이지로 이동가능
+<br>
+
+
+### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">9. 나만의 여행코스 기능 </a>
+
+![mycourse1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+<br>
+#### 👉 회원들이 직접 만든 여행코스는 일정, 테마별로 검색 가능
+
+![mycourse1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+<br>
+#### 👉 상세페이지에서 코스정보와 원본 이미지 조회
+
+![mycourse2](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+<br>
+#### 👉 회원들의 만든 코스에 리뷰와 별점을 부여해 만족도 수치 확인
 <br>
 <br>
 <br>
