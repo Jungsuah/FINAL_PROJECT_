@@ -107,19 +107,20 @@
 
 
 ### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">1. 메인페이지 기능 소개</a>
+<br>
 
 ![main1](https://user-images.githubusercontent.com/110010716/222136100-1e0ba414-90a9-41fd-a1b1-3fb6ff1df59b.gif)
 <br>
 #### 👉 관광정보 검색 버튼으로 키워드 검색 가능 
 #### 👉 나만의 여행코스를 통해 회원들이 직접 만든 코스 소개
 #### 👉 핫플레이스 목록은 회원의 좋아요를 많이 받은 관광지 및 음식점 기반 추천 
-
+<br>
+<br>
 ![main2](https://user-images.githubusercontent.com/110010716/222136261-1566824f-edcc-4850-849b-e135b8ef5db3.gif)
 <br>
 #### 👉 각 항목별 더보기 버튼 클릭 시 해당 항목별 메인페이지로 이동 <br><br>
 <br>
 <br>
-
 
 
 ### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">2. 관광지 검색 기능 소개</a>
