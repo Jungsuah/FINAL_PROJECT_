@@ -237,7 +237,9 @@
 ![gallery2](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
 <br>
 #### 👉 하트 클릭시 빨간색(찜하기 유무)이 사라지지 않도록 ajax로 구현
-
+<br>
+<br>
+<br>
 
 
 ### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">8. 여행 지도 기능</a>
@@ -248,6 +250,8 @@
 #### 👉 좌표가 점선으로 연결된 형태로 조회 
 #### 👉 좌표 클릭시 상세페이지로 이동가능
 <br>
+<br>
+<br>
 
 
 
@@ -256,12 +260,12 @@
 ![mycourse1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
 <br>
 #### 👉 회원들이 직접 만든 여행코스는 일정, 테마별로 검색 가능
-
+<br>
 
 ![mycourse1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
 <br>
 #### 👉 상세페이지에서 코스정보와 원본 이미지 조회
-
+<br>
 
 ![mycourse2](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
 <br>
