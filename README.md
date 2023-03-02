@@ -178,7 +178,7 @@
 ![detail3](https://user-images.githubusercontent.com/110010716/222440790-47a22653-cc92-42b5-9b1f-94e6b917892b.gif)
 <br>
   
-#### 👉 코스담기 클릭시 코스 생성 가능 
+#### 👉 코스담기 클릭시 코스 생성 가능<a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/courses/course-mapper.xml">(URL)</a>
 - 모달를 이용하여 새로운 코스 이름 설정 
 - 생긴 코스에 항목 담아주기
 #### 👉 생성된 코스는 나만의 여행코스와 마이페이지에서 조회 가능
