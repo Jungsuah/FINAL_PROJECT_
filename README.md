@@ -74,7 +74,6 @@
   <br>
 
 ## ⛏ 개발환경 | Development Environment 
-![image](https://user-images.githubusercontent.com/110010716/222174828-33fe25a4-fa09-4d3f-9849-f680ddcbbd7a.png)
 ![221910999-1b9fd5cf-dabc-4f05-9e66-85879e885c27](https://user-images.githubusercontent.com/110010716/222426179-6a1773d5-4f7a-4c19-84bf-8b65642b0511.png)
   <br>
   <br>
