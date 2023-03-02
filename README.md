@@ -160,22 +160,9 @@
 
 
 
-### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">5. 달력 행사 검색 기능 소개</a>
-<br>
-
-![calendar1](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
-<br>
-#### 👉 달력 클릭시 진행되는 행사 조회 가능  
-- 자바스크립트를 이용하여 행사 데이터를 달력에 보여줄수 있도록 구현
-#### 👉 행사 클릭시 행사 상세페이지로 이동
-<br>
-<br>
-<br>
 
 
-
-
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/controller/HeritageDetailServlet.java">6. 관광 상세 페이지</a>
+### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/controller/HeritageDetailServlet.java">5. 관광 상세 페이지</a>
 <br>
 
 ![detail1](https://user-images.githubusercontent.com/110010716/222152309-80dc4c3a-cc25-44df-93cc-9e5354d39517.gif)
@@ -211,7 +198,7 @@
 <br>
 <br>
 
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">7. 여행 갤러리 기능</a>
+### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">6. 여행 갤러리 기능</a>
 
 ![gallery1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
 <br>
@@ -226,7 +213,7 @@
 <br>
 
 
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">8. 여행 지도 기능</a>
+### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">7. 여행 지도 기능</a>
 
 ![map1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
 <br>
@@ -239,7 +226,7 @@
 
 
 
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">9. 나만의 여행코스 기능 </a>
+### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">8. 나만의 여행코스 기능 </a>
 
 ![mycourse1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
 <br>
