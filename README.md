@@ -126,7 +126,7 @@
 ![search2](https://user-images.githubusercontent.com/110010716/222434339-b377cff2-d00b-4ad7-8edd-bd8425efb0a6.gif)
 <br>
 #### 👉 검색된 항목 (이미지, 이름, 위치, 요약정보, 회원들이 남긴 별점) 확인 가능
-#### 👉 검색 조건 (6중 검색 가능)  <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/tour_total-mapper.xml"> | 검색 SQL문 </a>
+#### 👉 검색 조건 (6중 검색 가능) - 동적 쿼리로 조건에 따라 쿼리가 변경 <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/tour_total-mapper.xml"> | 검색 쿼리문 </a>
 - 키워드 : 검색 항목에 포함된 문자 있으면 조회 (선택)
 - 날짜 : 달력으로 원하는 날짜 범위 지정 (미선택 or 단일 선택 가능)
 - 지역 : 여러 지역 중복 선택 가능 (미선택 or 중복 선택 가능)
@@ -140,7 +140,7 @@
 ### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">3. 지역별 행사 검색 기능 소개</a>
 <br>
 
-![festival1](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
+![festival1](https://user-images.githubusercontent.com/110010716/222436474-9ddaf47e-c40b-4ef2-af07-e96e787e9803.gif)
 <br>
 #### 👉 검색 조건 (3중 검색 가능)  <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/tour_total-mapper.xml"> | 검색 SQL문 </a>
 - 키워드 : 검색 항목에 포함된 문자 있으면 조회 (미선택 or 단일 선택 가능)
@@ -150,9 +150,10 @@
 
 
 
-![festival2](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
+![festival2](https://user-images.githubusercontent.com/110010716/222437318-1da847a6-4807-4a80-b14e-fc943edd2a30.gif)
 <br>
-#### 👉 로그인 한 회원일 경우 하트 버튼으로 찜하기 가능
+#### 👉 로그인 한 회원일 경우 하트 버튼으로 찜하기 가능 <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">(URL)</a>
+#### 👉 슬라이드 형식으로 즐겨찾기 목록 확인 가능
 <br>
 <br>
 <br>
@@ -162,10 +163,10 @@
 ### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">4. 달력 행사 검색 기능 소개</a>
 <br>
 
-![calendar1](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
+![calendar1](https://user-images.githubusercontent.com/110010716/222437417-c2fcc785-999e-44f0-bb1d-edda81c4ecec.gif)
 <br>
-#### 👉 달력 클릭시 진행되는 행사 조회 가능  
-- 자바스크립트를 이용하여 행사 데이터를 달력에 보여줄수 있도록 구현
+#### 👉 달력 클릭시 진행되는 행사 조회 가능 
+- 자바스크립트를 이용하여 행사 데이터를 달력에 보여줄수 있도록 구현<a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/webapp/resources/vendor/calendar.jsp/js/bootstrap-calendar.min.js">(URL)</a>
 #### 👉 행사 클릭시 행사 상세페이지로 이동
 <br>
 <br>
