@@ -187,33 +187,33 @@
 
 ![detail4](https://user-images.githubusercontent.com/110010716/222443417-58adec69-c433-4471-a61a-4ae17fbe8546.gif)
 <br>
-#### 👉 하단에서 리뷰 및 별점 부여 기능
-#### 👉 회원들이 남긴 별점의 평점이 검색시 보여짐<a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/review-mapper.xml"> (URL)</a>
+#### 👉 하단에서 리뷰 및 별점 부여 기능<a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/review-mapper.xml"> (URL)</a>
+#### 👉 회원들이 남긴 별점의 평점이 검색시 보여짐
 <br><br>
 <br>
 <br>
 <br>
 
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">6. 여행 갤러리 기능</a>
+### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/community/controller/GalleryController.java">6. 여행 갤러리 기능</a>
 
 ![gallery1](https://user-images.githubusercontent.com/110010716/222444411-79973acd-5e64-4e88-b596-688fe9625e6c.gif)
 <br>
 
-#### 👉 회원들이 사진 파일 업로드 가능 <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/dao/FestivalDao.java">(URL)</a>
+#### 👉 회원들이 사진 파일 업로드 가능 <a href="">(URL)</a>
 <br>
 
 ![gallery2](https://user-images.githubusercontent.com/110010716/222444404-aed83540-a838-4deb-8d07-27fc9b48082f.gif)
 <br>
 
-#### 👉 하트 클릭시 빨간색(찜하기 유무)이 사라지지 않도록 ajax로 구현
+#### 👉 하트 클릭시 빨간색(찜하기 유무)이 사라지지 않도록 ajax로 구현<a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/webapp/WEB-INF/views/community/gallery.jsp"> (URL)</a>
 <br>
 <br>
 <br>
 
 
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">7. 여행 지도 기능</a>
+### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/travelMap/controller/TravelMapController.java">7. 여행 지도 기능</a>
 
-![map1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+![map1](https://user-images.githubusercontent.com/110010716/222447198-b472b215-9613-4d53-b2aa-f5437af09685.gif)
 <br>
 #### 👉 투게더 자체 추천 코스는 여행코스, 회원들이 직접 만든 여행코스는 나의 여행에서
 #### 👉 좌표가 점선으로 연결된 형태로 조회 
@@ -224,21 +224,19 @@
 
 
 
-### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">8. 나만의 여행코스 기능 </a>
+### <a href="https://githuba.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/course/controller/CourseController.java">8. 나만의 여행코스 기능 </a>
 
-![mycourse1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+![mycourse1](https://user-images.githubusercontent.com/110010716/222447435-5337cd2f-37d7-4011-8d28-72908c56b79c.gif)
 <br>
-#### 👉 회원들이 직접 만든 여행코스는 일정, 테마별로 검색 가능
+#### 👉 회원들이 직접 만든 여행코스는 일정, 테마별로 검색 가능<a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/courses/course-mapper.xml"> (URL)</a>
 <br>
 
-![mycourse1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+
+![mycourse2](https://user-images.githubusercontent.com/110010716/222447300-07b4813f-3f44-4d00-b1c3-419be8d9654b.gif)
 <br>
 #### 👉 상세페이지에서 코스정보와 원본 이미지 조회
-<br>
-
-![mycourse2](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
-<br>
 #### 👉 회원들의 만든 코스에 리뷰와 별점을 부여해 만족도 수치 확인
+<br>
 <br>
 <br>
 <br>
