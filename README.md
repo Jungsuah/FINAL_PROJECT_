@@ -165,21 +165,17 @@
 ### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/controller/HeritageDetailServlet.java">5. 관광 상세 페이지</a>
 <br>
 
-![detail1](https://user-images.githubusercontent.com/110010716/222152309-80dc4c3a-cc25-44df-93cc-9e5354d39517.gif)
+![detail1](https://user-images.githubusercontent.com/110010716/222440747-53211a59-8c4b-4e5d-a0c7-37d274002382.gif)
 <br>
+
 #### 👉 상세 정보, 이미지, 지도 확인
-<br>
-
-
-![detail2](https://user-images.githubusercontent.com/110010716/222152309-80dc4c3a-cc25-44df-93cc-9e5354d39517.gif)
-<br>
 #### 👉 하단에서 추천 관광 코스 확인
 #### 👉 더보기를 통해 추천코스 상세페이지로 이동
 <br>
 <br>
 <br>
-  
-![detail3](https://user-images.githubusercontent.com/110010716/222152296-49c6b9fc-bde7-45aa-9259-2c56921c6c7b.gif)
+
+![detail3](https://user-images.githubusercontent.com/110010716/222440790-47a22653-cc92-42b5-9b1f-94e6b917892b.gif)
 <br>
   
 #### 👉 코스담기 클릭시 코스 생성 가능 
@@ -192,8 +188,9 @@
 ![detail4](https://user-images.githubusercontent.com/110010716/222152150-10fcb8b0-ef1f-46e8-a9e2-918af5880b41.gif)
 <br>
 
-#### 👉 하단에서 리뷰 및 별점 부여 기능<a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/heritageInfo/controller/HertiageReviewWriteServlet.java"> (URL)</a>
-#### 👉 회원들이 남긴 별점의 평점은 검색시 같이 확인 가능<br><br>
+#### 👉 하단에서 리뷰 및 별점 부여 기능
+#### 👉 회원들이 남긴 별점의 평점이 검색시 보여짐<a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/review-mapper.xml"> (URL)</a>
+<br><br>
 <br>
 <br>
 <br>
