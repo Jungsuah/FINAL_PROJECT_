@@ -45,8 +45,6 @@
 - 2022.11.02 프로젝트 발표
 <br>
 <br>
-<br>
-
 
 ## 🛠 아키텍쳐 | Architecture
 ![image](https://user-images.githubusercontent.com/110010716/222172798-960313ee-6f60-4267-845a-1c5bb19eae24.png)
@@ -77,7 +75,6 @@
 ![221910999-1b9fd5cf-dabc-4f05-9e66-85879e885c27](https://user-images.githubusercontent.com/110010716/222426179-6a1773d5-4f7a-4c19-84bf-8b65642b0511.png)
   <br>
   <br>
-
 
 
 
@@ -119,14 +116,14 @@
 ### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">2. 관광지 검색 기능 소개</a>
 <br>
 
-![search1](https://user-images.githubusercontent.com/110010716/222142847-14854b55-bdb2-4895-b447-879d917a0ba4.gif)
+![search1](https://user-images.githubusercontent.com/110010716/222434343-216e201e-d52b-4cb1-a21f-beb882e38db1.gif)
 <br>
-#### 👉 상단 메뉴를 통한 관광 검색 페이지 이동 시 전체 관광지 및 부대시설 조회 가능
+#### 👉 상단 메뉴를 통한 관광 검색 페이지 이동 시 전체 관광지 및 부대시설 조회 가능 <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">(URL)</a>
 #### 👉 한 페이지 당 9개의 관광 정보 페이징 처리 
-#### 👉 조회된 항목 클릭 시 상세 페이지로 이동
+#### 👉 조회된 항목 클릭 시 상세 페이지로 이동<a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/webapp/WEB-INF/views/tour/infoDetail.jsp">(URL)</a>
 <br>
 
-![search2](https://user-images.githubusercontent.com/110010716/222144092-ac1bf63d-92f4-4520-8a10-a76978ac36a3.gif)
+![search2](https://user-images.githubusercontent.com/110010716/222434339-b377cff2-d00b-4ad7-8edd-bd8425efb0a6.gif)
 <br>
 #### 👉 검색된 항목 (이미지, 이름, 위치, 요약정보, 회원들이 남긴 별점) 확인 가능
 #### 👉 검색 조건 (6중 검색 가능)  <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/tour_total-mapper.xml"> | 검색 SQL문 </a>
