@@ -185,9 +185,8 @@
 <br>
 <br>
 
-![detail4](https://user-images.githubusercontent.com/110010716/222152150-10fcb8b0-ef1f-46e8-a9e2-918af5880b41.gif)
+![detail4](https://user-images.githubusercontent.com/110010716/222443417-58adec69-c433-4471-a61a-4ae17fbe8546.gif)
 <br>
-
 #### 👉 하단에서 리뷰 및 별점 부여 기능
 #### 👉 회원들이 남긴 별점의 평점이 검색시 보여짐<a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers/tour_total/review-mapper.xml"> (URL)</a>
 <br><br>
@@ -197,13 +196,15 @@
 
 ### <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/controller/FestivalServlet.java">6. 여행 갤러리 기능</a>
 
-![gallery1](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+![gallery1](https://user-images.githubusercontent.com/110010716/222444411-79973acd-5e64-4e88-b596-688fe9625e6c.gif)
 <br>
+
 #### 👉 회원들이 사진 파일 업로드 가능 <a href="https://github.com/Jungsuah/SEMI_PROJECT_/blob/main/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/SEMI_PROJECT_%EC%82%AC%EB%BF%90%EC%82%AC%EB%BF%90_Spring/src/main/java/semi/heritage/event/dao/FestivalDao.java">(URL)</a>
 <br>
 
-![gallery2](https://user-images.githubusercontent.com/110010716/222153814-187e68b2-dde8-429e-9318-184549e881d7.gif)
+![gallery2](https://user-images.githubusercontent.com/110010716/222444404-aed83540-a838-4deb-8d07-27fc9b48082f.gif)
 <br>
+
 #### 👉 하트 클릭시 빨간색(찜하기 유무)이 사라지지 않도록 ajax로 구현
 <br>
 <br>
