@@ -44,9 +44,6 @@
 - 2022.10.25 ~ 2022.11.01 발표자료 작성
 - 2022.11.02 프로젝트 발표
 <br>
-
-![image](https://user-images.githubusercontent.com/110010716/222173484-94bc0ea6-d714-4da9-84dd-6ffcb965cbe0.png)
-<br>
 <br>
 <br>
 
@@ -77,15 +74,8 @@
   <br>
 
 ## ⛏ 개발환경 | Development Environment 
-- 운영체제 : Window OS<br>
-- 개발 툴 : Eclipse, STS, Spring Framework, JDBC, Apache Tomcat 8.5, Oracle SQL Developer, Visual Studio code, Bootstrap<br>
-- 개발 언어 : Java , HTML5, CSS3, JavaScript, jQuery, SQL, JSP, Servlet, Ajax, Json, Gson<br>
-- 소스 제어 관리 : GitHub<br>
-- 협업 툴 : Slack, Discode, Zira<br>
-- 프로토타이핑 툴 : ERD Cloud<br>
-- Open API : Kakao API, Kakao 지도 API, 한국관광공사 API<br>
-  <br>
 ![image](https://user-images.githubusercontent.com/110010716/222174828-33fe25a4-fa09-4d3f-9849-f680ddcbbd7a.png)
+![221910999-1b9fd5cf-dabc-4f05-9e66-85879e885c27](https://user-images.githubusercontent.com/110010716/222426179-6a1773d5-4f7a-4c19-84bf-8b65642b0511.png)
   <br>
   <br>
 
@@ -101,7 +91,7 @@
 
 ## 🎨 기능 구현
 <br>
-들어가기에 앞서 모든 </b>mapper</b> 확인은 👉 <a href="https://github.com/Jungsuah/FINAL_PROJECT_/tree/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers">Here</a>
+들어가기에 앞서 모든 <b>mapper</b> 확인은 👉 <a href="https://github.com/Jungsuah/FINAL_PROJECT_/tree/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/resources/mappers">Here</a>
 <br>
 <br>
 
@@ -109,16 +99,20 @@
 ### <a href="https://github.com/Jungsuah/FINAL_PROJECT_/blob/master/FINAL_PROJECT_TOGETHER_SPRING/src/main/java/com/kh/tour/tour/controller/TourController.java">1. 메인페이지 기능 소개</a>
 <br>
 
-![main1](https://user-images.githubusercontent.com/110010716/222136100-1e0ba414-90a9-41fd-a1b1-3fb6ff1df59b.gif)
+![main1](https://user-images.githubusercontent.com/110010716/222428592-a015eee9-89d6-4968-9cc5-a6a209b1f702.gif)
 <br>
 #### 👉 관광정보 검색 버튼으로 키워드 검색 가능 
-#### 👉 나만의 여행코스를 통해 회원들이 직접 만든 코스 소개
-#### 👉 핫플레이스 목록은 회원의 좋아요를 많이 받은 관광지 및 음식점 기반 추천 
+#### 👉 각 항목별 더보기 버튼 클릭 시 해당 항목별 메인페이지로 이동
 <br>
 
-![main2](https://user-images.githubusercontent.com/110010716/222136261-1566824f-edcc-4850-849b-e135b8ef5db3.gif)
+![main2](https://user-images.githubusercontent.com/110010716/222429196-a24dd4b5-b6fe-4a4d-b4a9-aee4fec8fd22.gif)
+
 <br>
-#### 👉 각 항목별 더보기 버튼 클릭 시 해당 항목별 메인페이지로 이동 <br><br>
+
+![main3](https://user-images.githubusercontent.com/110010716/222429251-ddde74b6-a73f-43d3-8321-7c30accb79be.gif)
+<br>
+#### 👉 나만의 여행코스를 통해 회원들이 직접 만든 코스 소개
+#### 👉 핫플레이스 목록은 회원의 좋아요를 많이 받은 관광지 및 음식점 기반 추천  <br><br>
 <br>
 <br>
 
